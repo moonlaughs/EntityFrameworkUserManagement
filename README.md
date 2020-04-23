@@ -1,5 +1,7 @@
 # EntityFrameworkUserManagemnet
 
+![.NET Core](https://github.com/moonlaughs/EntityFrameworkUserManagement/workflows/.NET%20Core/badge.svg)
+
 1. Create .Net Core Application with API
 2. Add Docker
 3. Create Database
