@@ -113,7 +113,9 @@ namespace EntityFrameworkUserManagement.Controllers
             users.IsDeleted = true;
 
             _context.Entry(users).State = EntityState.Modified;
+
             //_context.Users.Remove(users);
+
             await _context.SaveChangesAsync();
 
             return users;
